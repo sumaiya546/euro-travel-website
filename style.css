@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 50px 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_nav {
+    display: flex;
+    align-items: center;
+}
+
+.left_nav img {
+    width: 45px;
+    height: 50px;
+}
+
+.left_nav h1 {
+    margin-left: 15px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.right_nav {
+    display: flex;
+}
+
+.right_nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    position: absolute;
+}
+
+.banner img {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner_text {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 450px;
+}
+
+.banner_text h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.popular_tours {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 700px;
+    gap: 20px;
+}
+
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+
+.popular_tours_text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular_tours_text p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.our_destination {
+    text-align: center;
+}
+
+.our_destination h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.our_destination p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.top_section .left h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    left: 230px;
+    top: 130px;
+}
+
+.top_section .right h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    right: 250px;
+    top: 130px;
+}
+
+
+.top_section img {
+    width: 570px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.middle_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.middle_section .top h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    left: 150px;
+    top: 100px;
+}
+
+.middle_section .middle h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    left: 580px;
+    top: 100px;
+}
+
+.middle_section .bottom h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    right: 100px;
+    top: 100px;
+}
+
+.bottom_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.bottom_section .left h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    left: 180px;
+    top: 100px;
+}
+
+.bottom_section .right h3 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    right: 280px;
+    top: 100px;
+}
+
+.choose_us h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.choose_us p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.benefits .left {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+
+.benefits .left h4 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bottom h4 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.benefits .left p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.bottom p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.benefits .right {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+
+.benefits .bottom {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px 30px;
+    margin: 20px 200px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 50px;
+
+}
+
+.newsletter_form {
+    width: 1250px;
+    width: 400px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter_form img {
+    width: 672px;
+    height: 422px;
+}
+
+.newsletter_form h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter_form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 5px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.btn {
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.footer_icon{
+    margin-left: 500px;
+}
+
+.social{
+    margin: 50px 500px;
+}
