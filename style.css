@@ -97,6 +97,7 @@ li {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
+    font-weight: bold;
     line-height: 26px;
     /* 162.5% */
 }
@@ -285,13 +286,14 @@ li {
     width: 573px;
     height: 284px;
     border-radius: 16px;
+    text-align: left;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 30px 30px;
     margin-top: 50px;
 }
 
-.benefits .bottom {
+.choose_us .bottom {
     width: 573px;
     height: 284px;
     border-radius: 16px;
