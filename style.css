@@ -384,3 +384,28 @@ footer p {
 .social{
     margin: 50px 500px;
 }
+
+/* code for responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .left_nav img {
+        width: 30px;
+        height: 35px;
+    }
+
+    .left_nav h1 {
+        font-size: 18px;
+    }
+
+    .banner_text h1 {
+        font-size: 24px;
+    }
+
+    .popular_tours {
+        margin-top: 40px;
+    }
+}
