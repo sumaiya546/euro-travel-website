@@ -539,7 +539,7 @@ footer p {
         left: 100px;
     }
 
-    .middle_section .middle img, .bottom_section .left img, .right img {
+    .middle_section .middle img, .bottom_section .left img, .bottom_section .right img {
         width: 335px;
         height: 342px;
         position: relative;
@@ -550,12 +550,13 @@ footer p {
     }
 
     .bottom_section .left h3{
-        color: #000;
+        color: #fff;
         left: 100px;
     }
 
     .bottom_section .right h3{
-        color: #000;
+        color: #fff;
         left: 100px;
+        top: 450px;
     }
 }
