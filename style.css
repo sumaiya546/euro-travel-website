@@ -498,15 +498,11 @@ footer p {
     .top_section img {
         width: 335px;
         height: 342px;
-
     }
-
-
 
     .middle_section {
         display: flex;
         flex-direction: column;
-        position: relative;
     }
 
     .middle_section .top h3 {
@@ -525,27 +521,41 @@ footer p {
 
     .middle_section .middle h3 {
         position: absolute;
-        color: black;
-        text-align: center;
+        color: #FFF;
         font-size: 28px;
         font-weight: 800;
-        /* top: 1220px; */
-        /* bottom: 500px; */
+        top: 700px;
+        left: 100px;
     }
 
     .middle_section .bottom h3 {
         position: absolute;
-        color: black;
+        color: #fff;
         text-align: center;
         font-size: 28px;
         font-weight: 800;
         right: 120px;
-        top: 120px;
+        top: 400px;
+        left: 100px;
     }
 
-    .middle_section .middle img {
+    .middle_section .middle img, .bottom_section .left img, .right img {
         width: 335px;
         height: 342px;
         position: relative;
+    }
+
+    .bottom_section{
+        flex-direction: column;
+    }
+
+    .bottom_section .left h3{
+        color: #000;
+        left: 100px;
+    }
+
+    .bottom_section .right h3{
+        color: #000;
+        left: 100px;
     }
 }
